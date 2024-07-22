@@ -26,6 +26,9 @@ if scatter_button:  # se o botão for clicado
     # escrever ua mensagem
     st.write('Criando um um gráfico de dispersão para o conjunto de dados de anúncios de vendas de carros')
 
+    # criar um cabeçalho
+    st.header('Gráfico de dispersão de dados de anúncios de vendas de carros')
+
     # criar um gráfico de dispersão
     chart = px.scatter(car_data, x='odometer')
 
