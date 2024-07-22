@@ -34,6 +34,3 @@ if scatter_button:  # se o botão for clicado
 
     # exibir um gráfico plotly interativo
     st.plotly_chart(chart, use_container_width=True)
-
-    # criar um cabeçalho
-    st.header('Gráfico de dispersão de dados de anúncios de vendas de carros')
